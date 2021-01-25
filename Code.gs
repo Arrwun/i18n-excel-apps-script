@@ -1,6 +1,6 @@
 const ID = '1StGSmaPhe11QIsFc-QUJc8PMeiy4tW0-m3qOlkP25zU'
 const DOWNLOAD_FILE_NAME = 'excelExportAllLang.json'
-const NO_USE_SHEET_LIST = ['winIPhone12', 'getDepositReward']
+const NO_USE_SHEET_LIST = ['winIPhone12', 'getDepositReward'] 
 
 function onOpen() {
   createSelfTools()
