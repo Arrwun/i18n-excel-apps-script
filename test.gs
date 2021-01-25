@@ -1,3 +1,3 @@
 function myFunction() {
-  123
+  console.log('123')
 }
