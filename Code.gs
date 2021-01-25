@@ -44,7 +44,7 @@ function exportAllLangJson() {
     if(NO_USE_SHEET_LIST.includes(sheetName)) {
       return
     }
-    
+
     const values = sheet.getDataRange().getValues()
     getAllTabList().forEach((lang) => {
         exportObj[lang][sheetName] = {}
